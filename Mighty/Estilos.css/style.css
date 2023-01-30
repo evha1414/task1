@@ -1,0 +1,89 @@
+/*{
+    font-family: cursive;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.header-container{
+    height: 380px;
+    background-image: url(../../Assets/design1_image1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+}
+
+.h1-title{
+    font-size: 350%;
+}
+
+.img-design1{
+    display: none;
+}
+
+section h3, aside{
+    font-size: 130%;
+    margin-top: 30px;
+    margin-left: 200px;
+}
+
+section p{
+    font-size: 100%;
+    margin-left: 230px;
+    margin-right: 180px;
+}
+
+h2{
+    background-color: black;
+    color: white;
+    font-size: 30px;
+    text-align: center;
+}
+
+.nav-menú{
+    font-size: 20px;
+    color:black;
+    margin-top: 70px;
+    position:absolute;
+    top: 100;
+}
+
+.nav-link{
+    display: none;
+}
+
+img{
+    width: 160px;
+    margin-right: 150px;
+    margin-top: 250px;;
+    float: right;
+}
+
+.img-hockey1{
+    width: 300px;
+    margin-right: 350px;
+    margin-top: 1px;
+    margin-bottom: 30px;
+    float: right;
+}
+
+.img-hockey2{
+    width: 300px;
+    margin-right: 500px;
+    margin-top: 1px;
+    float: center;
+}
+
+.img-hockey3{
+    width: 300px;
+    margin-right: 350px;
+    margin-top: 1px;
+    float: right;
+}
+nav{
+    position: absolute;
+    top: 380px;
+    left: 50px;
+    display: grid;
+}
+

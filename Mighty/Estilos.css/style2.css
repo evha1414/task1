@@ -1,0 +1,117 @@
+/*{
+    font-family:cursive;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.h1-title{   
+    width: 100%;
+    text-align: left;
+    font-size: 330%;
+    font-style: oblique;
+    position:initial;
+}
+
+.img-header{
+    height: 350px;
+    background-image: url(../../Assets/design1_image2.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 10px;
+}
+
+img{
+    width: 180px;
+    margin-top: 100px;
+    float: left;
+}
+
+header h1{
+    font-size: 350%;
+}
+
+h2{
+    background-color: white;
+    color: black;
+    font-size: 200%;
+    text-align: center;
+    border: 2px solid black;
+}
+
+.img-design1{
+    display: none;
+}
+
+section h3, aside{
+    font-size: 130%;
+    margin-top: 30px;
+    margin-left: 200px;
+    font-style: oblique;
+}
+
+section p{
+    font-size: 100%;
+    margin-left: 230px;
+    margin-right: 180px;
+}
+
+.nav-menú{
+   display: none;
+}
+.header-container{
+    position:relative;
+}
+
+.nav-link{
+    position:relative;
+    justify-content: right;
+    align-items: flex-end;
+}
+
+.nav-button{
+    display: inline-block;
+    background-color: rgb(34, 116, 170);
+    color:white;
+    margin: 0 0 3px 15px;
+    font-size: 18px;
+    padding: 5px 15px;
+    border: 2px solid black;
+    box-shadow: 1px 1px 1px 3px rgb(146, 145, 145);
+}
+
+.nav-button:hover{
+    background:rgb(64, 202, 64);
+}
+
+.img-hockey1{
+    width: 300px;
+    margin-right: 250px;
+    margin-top: 1px;
+    margin-bottom: 30px;
+    float: right;
+}
+
+.img-hockey2{
+    width: 300px;
+    margin-right: 500px;
+    margin-top: 1px;
+    float: right;
+}
+
+.img-hockey3{
+    width: 300px;
+    margin-left: 70px;
+    margin-top: 1px;
+    
+}
+nav{
+    position:relative;
+    top: -370px;
+    left: 800px;
+}
+
+
+
+

@@ -5,35 +5,56 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home</title>
+    <link rel="shortcut icon" href="../Assets/LogoMightyducks-01.png" type="image/x-icon">
+    <link rel="stylesheet" href="./Estilos.css/style.css"> 
+    <link rel="stylesheet" href="./Estilos.css/style2.css">
+    <link rel="stylesheet" href="./Estilos.css/style3.css">
 </head>
 <body>
-    <header>
-    <h1>Mighty Ducks Hockey Lea</h1>
-        <div>
-            <img src="../Assets/LogoMightyducks-01.png" alt="" width="100">
-            
-        </div> 
-    <nav>
-        <a href="./index.html">Home</a>
-        <a href="./about.html">About MDHL</a>
-        <a href="./contact.html">Contact</a>
-    </nav>
-</header>
+    <header class="header-container">
+        <h1 class="h1-title">Mighty Ducks Hockey League</h1>
+        <figure class="img-header">
+            <img class="img-design1" src="../Assets/design1_image2.jpg" alt="">
+        </figure>
+        <figure>
+            <img src="../Assets/LogoMightyducks-01.png" alt="">
+        </figure>
+    </header>
     <main>
-        <img src="../../Assets/hockey1.jpg" alt="" width="350">
-        <h2>Upcoming events</h2>
-            <h3>August 4</h3>
-            <div>
+        <nav class="nav-link">
+            <a href="./index.html"><button class="nav-button">Home</button></a> 
+            <a href="./about.html"><button class="nav-button">About</button></a> 
+            <a href="./contact.html"><button class="nav-button">Contact</button></a> 
+        </nav>
+        <nav class="nav-menú">
+            <a href="#">Home</a> 
+            <a href="./about.html">About</a> 
+            <a href="./contact.html">Contact</a>
+        </nav>
+        <section>
+            <h2>Upcoming events</h2>
+        <article>
+             <h3>August 4</h3>
+            <p>
                 MDSL Fundraise
-            </div>
+            </p>
+            <figure>
+                <img class="img-hockey1" src="../Assets/hockey1.jpg" alt="">
+            </figure>
+        </article>   
+        <article>
             <h3>August 16</h3>
-            <div>
+            <p>
               Season Kick-off: Meet the Teams
-            </div>
-        <h3>September 1</h3>
-        <div>
-            First Game of the Season (Check Game Schedule for details)
-        </div>
+            </p>
+        </article>
+        <article>
+             <h3>September 1</h3>
+                <p>
+                    First Game of the Season (Check Game Schedule for details)
+                </p>
+        </article>
+        </section>    
     </main>
 </body>
 </html>
